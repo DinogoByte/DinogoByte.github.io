@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: DinogoByte
 subtitle: ''
 description: ''
 keywords:
-author: John Doe
-language: en
+author: Dinogo
+language: zh
 timezone: ''
 
 # URL
@@ -45,7 +45,7 @@ post_asset_folder: false
 relative_link: false
 future: true
 highlight:
-  enable: true
+  enable: false
   line_number: true
   auto_detect: false
   tab_replace: ''
@@ -98,9 +98,40 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: sagiri
+# theme: landscape
+# theme: love
+theme: hexo-theme-aomori
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+
+# Avatar
+aomori_logo: /images/avatar.jpg
+# Site Title Animated
+aomori_logo_typed_animated: true
+# Navigation Menu
+aomori_menu:
+  Home: /
+  Archives: /archives
+# Sidebar Menu
+aomori_widgets:
+  - toc # Article navigation
+  - category  # Article classification
+  - tag # Article tags
+  - recent_posts  # latest articles
+  - archive # Article Archive
+# 知识共享使用许可
+aomori_copyright: false # or false
+aomori_baidu_sitepush: true
+aomori_baidu_analytics: 7b150182e8cc3ef094fdf15337c246cb
+# 社交媒体
+aomori_social:
+  -
+    icon: github
+    type:
+    url: https://github.com/DinogoByte
+# 评论
+aomori_disqus_shortname: dinogobyte

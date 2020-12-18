@@ -1,2 +1,2 @@
-# DinogoByte.github.io
+# dinogobyte.github.io
 DinogoByte's blog.
